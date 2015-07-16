@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @entry.Date %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @entry.Hours %>
+</p>
+
+<p>
+  <strong>Skills practiced:</strong>
+  <%= @entry.Skills_Practiced %>
+</p>
+
+<p>
+  <strong>Adult initials:</strong>
+  <%= @entry.Adult_Initials %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>

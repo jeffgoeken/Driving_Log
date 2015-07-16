@@ -1,0 +1,7 @@
+
+
+  
+	  <div class="field">
+    <%= f.label :Date %><br>
+    <%= f.datetime_select :Date %>
+	</div>

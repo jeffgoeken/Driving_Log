@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Date: 2015-07-16 13:42:55
+  Hours: 1
+  Skills_Practiced: MyString
+  Adult_Initials: MyString
+
+two:
+  Date: 2015-07-16 13:42:55
+  Hours: 1
+  Skills_Practiced: MyString
+  Adult_Initials: MyString

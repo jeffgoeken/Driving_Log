@@ -1,0 +1,3 @@
+class Entry < ActiveRecord::Base
+validates :Hours, :presence => true
+end
